@@ -423,15 +423,27 @@
 
     }
 
-    .fontSize{
+    .fontSize {
         font-size: medium;
     }
-    
+
     .costumWidth {
-        /* font-size: 1fontSizerem; */
         width: 90%;
         text-align: center;
     }
+    
+}
+
+@media (min-width: 768px) {
+    .costumWidth {
+        display: flex;
+    }
+
+    .img-position {
+        margin-left: 1.5rem;
+    }
+
+    
 }
 
 @media (min-width: 768px) {

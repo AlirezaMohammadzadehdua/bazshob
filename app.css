@@ -17580,35 +17580,13 @@ form button[type=submit] {
 
 /* the end of intro.html styles */
 
+
 /* goalsCommitments.html styles */
- .text-size {
-    font-size: .8rem;
-    font-weight: 600;
+.Dimensionsimg {
+    height: 6.5rem;
 }
-
-.box-style2 {
-    margin-right: 5rem;
-    margin-left: 10rem;
-
-    padding: 1rem;
-    border-radius: 1rem;
-}
-
-.moduleStyle {
-    display: flex;
-}
-
-.scrollOverflow {
-
-    overflow: scroll;
-
-}
-
-
-
 
 /* end goalsCommitments.html styles */
-
 
 /* history.html styles */
 .logoPosition2 {
