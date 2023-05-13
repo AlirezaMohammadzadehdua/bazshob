@@ -17583,6 +17583,10 @@ form button[type=submit] {
     height: 40rem;
 }
 
+.iconPosition {
+    margin-left: 1rem;
+}
+
 /* the end of intro.html styles */
 
 

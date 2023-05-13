@@ -392,6 +392,42 @@
     }
 }
 
+/* intro.html */
+@media (max-width:576px) {
+    .boxPosition {
+        width: 75%;
+        position: relative;
+        left: .7rem;
+    }
+}
+
+@media (max-width:500px) {
+    .boxPosition {
+        position: relative;
+        left: 1.1rem;
+    }
+}
+
+@media (max-width:400px) {
+    .boxPosition {
+        position: relative;
+        left: 2rem;
+    }
+}
+
+@media (max-width:406px) {
+    .showingState{
+        display: none;
+    }
+    .iconPosition{
+        margin-left: 0;
+    }
+    
+}
+
+/* end intro.html */
+
+
 /* goalsCommitments.html styles */
 
 /* @media (max-width: 700px) {
@@ -431,7 +467,7 @@
         width: 90%;
         text-align: center;
     }
-    
+
 }
 
 @media (min-width: 768px) {
@@ -443,7 +479,7 @@
         margin-left: 1.5rem;
     }
 
-    
+
 }
 
 @media (min-width: 768px) {
