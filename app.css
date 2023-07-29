@@ -14114,43 +14114,43 @@ a.text-dark:hover {
 }
 
 @font-face {
-    font-family: IRANSans;
+    font-family: iransans;
     font-style: normal;
-    font-weight: 700;
-    src: url(/fonts/eot/IRANSansWeb_Bold.eot);
-    src: url(/fonts/eot/IRANSansWeb_Bold.eot?#iefix) format("embedded-opentype"), url(/fonts/woff2/IRANSansWeb_Bold.woff2) format("woff2"), url(/fonts/woff/IRANSansWeb_Bold.woff) format("woff"), url(/fonts/ttf/IRANSansWeb_Bold.ttf) format("truetype")
+    font-weight: normal;
+    src: url('../fonts/IRANSansWeb.eot');
+    src: url('../fonts/IRANSansWeb.eot?#iefix') format('embedded-opentype'), url('../fonts/IRANSansWeb.woff') format('woff'), url('../fonts/IRANSansWeb.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: IRANSans;
+    font-family: iransans-light;
     font-style: normal;
-    font-weight: 500;
-    src: url(/fonts/eot/IRANSansWeb_Medium.eot);
-    src: url(/fonts/eot/IRANSansWeb_Medium.eot?#iefix) format("embedded-opentype"), url(/fonts/woff2/IRANSansWeb_Medium.woff2) format("woff2"), url(/fonts/woff/IRANSansWeb_Medium.woff) format("woff"), url(/fonts/ttf/IRANSansWeb_Medium.ttf) format("truetype")
+    font-weight: normal;
+    src: url('../fonts/IRANSansWeb_Light.eot');
+    src: url('../fonts/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'), url('../fonts/IRANSansWeb_Light.woff') format('woff'), url('../fonts/IRANSansWeb_Light.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: IRANSans;
+    font-family: iransans-medium;
     font-style: normal;
-    font-weight: 300;
-    src: url(/fonts/eot/IRANSansWeb_Light.eot);
-    src: url(/fonts/eot/IRANSansWeb_Light.eot?#iefix) format("embedded-opentype"), url(/fonts/woff2/IRANSansWeb_Light.woff2) format("woff2"), url(/fonts/woff/IRANSansWeb_Light.woff) format("woff"), url(/fonts/ttf/IRANSansWeb_Light.ttf) format("truetype")
+    font-weight: normal;
+    src: url('../fonts/IRANSansWeb_Medium.eot');
+    src: url('../fonts/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/IRANSansWeb_Medium.woff') format('woff'), url('../fonts/IRANSansWeb_Medium.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: IRANSans;
+    font-family: iransans-bold;
     font-style: normal;
-    font-weight: 200;
-    src: url(/fonts/eot/IRANSansWeb_UltraLight.eot);
-    src: url(/fonts/eot/IRANSansWeb_UltraLight.eot?#iefix) format("embedded-opentype"), url(/fonts/woff2/IRANSansWeb_UltraLight.woff2) format("woff2"), url(/fonts/woff/IRANSansWeb_UltraLight.woff) format("woff"), url(/fonts/ttf/IRANSansWeb_UltraLight.ttf) format("truetype")
+    font-weight: normal;
+    src: url('../fonts/IRANSansWeb_Bold.eot');
+    src: url('../fonts/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/IRANSansWeb_Bold.woff') format('woff'), url('../fonts/IRANSansWeb_Bold.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: IRANSans;
+    font-family: iransans-UltraLight;
     font-style: normal;
-    font-weight: 400;
-    src: url(/fonts/eot/IRANSansWeb.eot);
-    src: url(/fonts/eot/IRANSansWeb.eot?#iefix) format("embedded-opentype"), url(/fonts/woff2/IRANSansWeb.woff2) format("woff2"), url(/fonts/woff/IRANSansWeb.woff) format("woff"), url(/fonts/ttf/IRANSansWeb.ttf) format("truetype")
+    font-weight: normal;
+    src: url('../fonts/IRANSansWeb_UltraLight.eot');
+    src: url('../fonts/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'), url('../fonts/IRANSansWeb_UltraLight.woff') format('woff'), url('../fonts/IRANSansWeb_UltraLight.ttf') format('truetype');
 }
 
 /*!Ion.RangeSlider, 2.3.1, © Denis Ineshin, 2010 - 2019, IonDen.com, Build date: 2019-12-19 16:51:02*/
@@ -14930,7 +14930,7 @@ a.text-dark:hover {
 /*! Cryptocoins - cryptocurrency icon font | https://github.com/allienworks/cryptocoins */
 @font-face {
     font-family: cryptocoins;
-    src: url(/fonts/vendor/cryptocoins-webcryptocoins.woff2?2a17db09237572ca8000eae9afbe1527) format("woff2"), url(/fonts/vendor/cryptocoins-webcryptocoins.woff?6069389ea49600c828dff95448c8632d) format("woff"), url(/fonts/vendor/cryptocoins-webcryptocoins.ttf?03d31a401e6609fc62b072cf8a9bcd17) format("truetype")
+    src: url(./IRANSans/fonts/vendor/cryptocoins-webcryptocoins.woff2?2a17db09237572ca8000eae9afbe1527) format("woff2"), url(./IRANSans/fonts/vendor/cryptocoins-webcryptocoins.woff?6069389ea49600c828dff95448c8632d) format("woff"), url(./IRANSans/fonts/vendor/cryptocoins-webcryptocoins.ttf?03d31a401e6609fc62b072cf8a9bcd17) format("truetype")
 }
 
 .cc:before {
@@ -17253,7 +17253,7 @@ strong {
 
 .button {
     border: 1px solid #212121;
-    padding: 12px
+    padding: 12px;
 }
 
 .button:hover {
@@ -17851,6 +17851,24 @@ form button[type=submit] {
     }
 }
 
+@media(max-width: 768px) {
+    .font-size-mobile {
+        font-size: .7rem !important;
+    }
+}
+
+@media(max-width:768px) {
+    .hidden {
+        display: none;
+    }
+}
+
+@media(min-width:768px) {
+    .hidden2 {
+        display: none;
+    }
+}
+
 .table-responsive {
     display: block;
     width: 100%;
@@ -18129,7 +18147,7 @@ form button[type=submit] {
     display: none !important
 }
 
-header.with-background {
+header.top-nav {
     background: #f7f7f7
 }
 
@@ -18321,7 +18339,7 @@ header .top-nav {
     align-items: center;
     font-size: 13px;
     margin: auto;
-    width: 1100px
+    width: 1100px;
 }
 
 header .top-nav .logo {
@@ -23428,4 +23446,625 @@ h1.checkout-heading {
     margin: 0;
     overflow: visible;
     clip: auto
+}
+
+/* styles for cart.html */
+hr.-ml-2 {
+    margin-right: -2rem;
+}
+
+.border-style {
+    border: 1px solid #960000;
+}
+
+.outline-circle {
+    outline: 1px solid #960000;
+}
+
+.ml-15 {
+    margin-left: 15rem;
+}
+
+.bg-page {
+    background-color: #F0F0F0;
+}
+
+.font-text {
+    font-size: 0.6rem;
+    position: relative;
+    bottom: 2.5rem;
+}
+
+.font-text-2 {
+    font-size: 0.6rem;
+    position: relative;
+    bottom: 3.5rem;
+}
+
+.font-text-3 {
+    font-size: 0.6rem;
+    position: relative;
+    bottom: 3.5rem;
+}
+
+.font-sm {
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+@media(max-width:338px) {
+    .font-xss {
+        font-size: 0.6rem;
+        font-weight: 600;
+    }
+}
+
+.-ml-1 {
+    margin-left: -1rem;
+}
+
+.mx-div {
+    margin-right: 5rem;
+    margin-left: 1rem;
+}
+
+.ml-details-product {
+    margin-left: 1rem;
+}
+
+.top-and-left-position {
+    top: -50px;
+    left: 50px;
+}
+
+.color-txt {
+    color: #960000;
+}
+
+.border-btn {
+    border: 1px solid #960000;
+}
+
+.hover-state:hover {
+    color: #960000;
+}
+
+.color-text {
+    color: #960000;
+}
+
+.bg-red {
+    background-color: #960000;
+}
+
+.margin-l {
+    margin-left: 5.3rem;
+}
+
+.mr-60 {
+    margin-right: 50rem;
+}
+
+.mr-50 {
+    margin-right: 50rem;
+}
+
+.mleft-2 {
+    margin-left: 2rem;
+}
+
+.border-and-bg-color {
+    border: 2px solid #960000;
+}
+
+fieldset {
+    overflow: hidden
+}
+
+.some-class {
+    float: left;
+    clear: none;
+}
+
+.some-class-1 {
+    float: right;
+    clear: none;
+}
+
+label {
+    float: left;
+    clear: none;
+    display: block;
+    padding: 0px 1em 0px 8px;
+}
+
+input[type=radio],
+input.radio {
+    float: left;
+    clear: none;
+    margin: 2px 0 0 2px;
+}
+
+.w-80 {
+    width: 90%;
+}
+
+.accent-color {
+    accent-color: #960000;
+}
+
+/* end styles for cart.html */
+
+/* payment.html styles */
+.w-55 {
+    width: 55rem;
+}
+
+.h-fit {
+    height: 21rem;
+}
+
+.w-content {
+    width: 25rem;
+}
+
+/* end payment.html styles */
+
+/* specifications.html styles */
+@media(max-width:768px) {
+    .h-8-rem {
+        height: 8rem !important;
+    }
+}
+
+.input-style {
+    border: 1px solid #960000;
+    outline: none;
+}
+
+
+
+.w-fit {
+    width: 13rem;
+}
+
+.font-xs {
+    font-size: .6rem;
+    font-weight: 600;
+}
+
+/* end specifications.html styles */
+
+.input-size {
+    width: 11.25rem;
+    height: 3rem;
+}
+
+.mt-4-rem {
+    margin-top: 9rem;
+}
+
+.px-8 {
+    padding: 0 8rem 0 8rem;
+}
+
+.px-6 {
+    padding: 0 6rem;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.p-9 {
+    padding: 1rem 4rem 1rem 4rem;
+}
+
+@media(max-width:768px) {
+    .flex-direction {
+        flex-direction: column;
+    }
+}
+
+.px--5 {
+    padding: 0 3rem 0 3rem;
+}
+
+@media(max-width:768px) {
+    .px--5 {
+        padding: 0 .8rem 0 .8rem;
+    }
+}
+
+@media(min-width: 768px) {
+    .d--flex {
+        display: flex;
+    }
+}
+
+@media(max-width:768px) {
+    .font-xs {
+        font-size: .8rem;
+        font-weight: 600;
+    }
+}
+
+.w-max-content {
+    width: max-content;
+}
+
+.text-red {
+    color: #FF5449;
+}
+
+.bg-btn {
+    background-color: #960000;
+}
+
+@media(min-width:768px) {
+    .w--55 {
+        width: 55rem;
+    }
+}
+
+@media(min-width:768px) {
+    .w--content {
+        width: 25rem;
+    }
+}
+
+.dimensions {
+    width: 13rem;
+    height: 3rem;
+}
+
+@media(max-width:463px) {
+    .dimensions {
+        width: 8rem;
+    }
+}
+
+@media(min-width:768px) and (max-width:896px) {
+    .w-input {
+        width: 75% !important;
+        margin-left: 14rem;
+    }
+}
+
+@media(min-width:768px) {
+    .ml--2 {
+        margin-right: 1rem;
+    }
+}
+
+.p--5 {
+    padding: .7rem 0 .7rem 0;
+}
+
+.mb--5 {
+    margin-bottom: 8rem;
+}
+
+@media(max-width:768px) {
+    .fixed--bottom {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+@media(max-width:768px) {
+    .mb_5 {
+        margin-bottom: 2.5rem;
+    }
+}
+
+.p-6 {
+    padding: 1rem 5rem 1rem 5rem;
+}
+
+@media(min-width:768px) and (max-width:1100px) {
+    .p_6 {
+        padding: 1rem 3rem 1rem 3rem;
+    }
+}
+
+@media(max-width:768px) {
+    .p-10 {
+        padding: 0 6.3rem 0 6.3rem;
+    }
+}
+
+@media(width:768px) {
+    .w--40 {
+        width: 40rem;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.border_style {
+    border: 2px solid #707070;
+}
+
+.textRed {
+    color: #707070;
+}
+
+.border_style:focus {
+    border-color: #960000;
+    color: #960000;
+}
+
+.rounded_lg {
+    border-radius: 1rem;
+}
+
+.focus-stat:focus {
+    background-color: #333;
+    color: #fff;
+    border-radius: 1rem;
+    padding: 0 1rem;
+}
+
+@media(max-width:770px) {
+    .overflow_x {
+        overflow-x: scroll;
+    }
+}
+
+@media(max-width:768px) {
+    .px_3 {
+        padding: .4rem 1rem .4rem 1rem !important;
+    }
+}
+
+@media(max-width:768px) {
+    .d_flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media(max-width:424px) {
+    .font-small {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:992px) {
+    .dflex {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+@media(max-width:992px) {
+    .border-mobile-size {
+        border: 2px solid #333;
+        border-radius: 2rem;
+    }
+}
+
+@media(max-width:694px) {
+    .po-section {
+        position: relative;
+        top: 1rem;
+    }
+}
+
+@media(max-width:694px) {
+    .po-section-2 {
+        position: relative;
+        bottom: -1rem;
+    }
+}
+
+.button-2 {
+    /* padding: 0.1rem 0.25rem; */
+    /* min-width: 8rem; */
+    width: 5rem;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    border-radius: 100%;
+    background-image: linear-gradient(to right, #ff3c7d, #ff7637, #AD03C5, #FEAE0A);
+    color: #ffffff;
+    cursor: pointer;
+    transition: transform 0.25s;
+}
+
+@media(max-width:851px) {
+    .horizontal-scroll {
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+}
+
+@media(min-width:768px) {
+    .mx_5 {
+        margin: 0 5rem !important;
+    }
+}
+
+@media(max-width:992px) {
+    .m_2 {
+        margin: .5rem;
+    }
+}
+
+@media(max-width:341px) {
+    .mt__3 {
+        margin-top: 1rem;
+    }
+}
+
+@media(max-width:728px) {
+    .mt3 {
+        margin-top: 1rem;
+    }
+}
+
+@media(max-width:517px) {
+    .mt--3 {
+        margin: 1rem .1rem .1rem .3rem;
+    }
+}
+
+@media(max-width:417px) {
+    .w-h-100 {
+        width: 4.5rem;
+        height: 4.5rem;
+        border-radius: 100%;
+    }
+}
+
+.po-relative {
+    position: relative;
+    top: 4.4px;
+}
+
+.mobile-pic {
+    height: 100%;
+    border-radius: 2rem;
+}
+
+.button-2:hover {
+    background-image: linear-gradient(to right, #e40c54, #ff3c7d, #FEAE0A, #AD03C5);
+    transform: translateY(-0.25rem);
+}
+
+#answer {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 20rem;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 2rem;
+    transform: translate(-50%, -50%) scale(0);
+    box-shadow: 0 2rem 5rem 0 #00000040;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0.3rem;
+    z-index: 9999999;
+}
+
+.modal .btn-grp {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modal.open {
+    animation: open 0.5s forwards;
+}
+
+.modal.close {
+    animation: close 0.5s forwards;
+}
+
+.bg-overlay {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.bg-product {
+    background-color: #F1CDCD;
+}
+
+@media(max-width:424px) {
+    .md-425 {
+        display: none;
+    }
+}
+
+@media(max-width:509px) {
+    .md-510 {
+        display: none;
+    }
+}
+
+@media(max-width:600px) {
+    .md-600 {
+        display: none;
+    }
+}
+        /* width */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 5px;
+        }
+    
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #CBD5E0;
+            border-radius: 5px;
+        }
+    
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: rgb(88, 86, 86);
+            border-radius: 5px;
+        }
+    
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(61, 61, 61);
+        }
+@keyframes open {
+    0% {
+        transform: translate(-50%, -50%) scale(0);
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.2);
+    }
+
+    70% {
+        transform: translate(-50%, -50%) scale(0.95);
+    }
+
+    95% {
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+@keyframes close {
+    100% {
+        transform: translate(-50%, -50%) scale(0);
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.2);
+    }
+
+    30% {
+        transform: translate(-50%, -50%) scale(0.95);
+    }
+
+    5% {
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+    }
 }
